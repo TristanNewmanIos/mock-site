@@ -1,0 +1,93 @@
+body{
+    background: #0827CD;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.header{
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    flex-flow: row;
+    align-items: center;
+}
+
+.header button{
+    margin-right: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.5vw;
+}
+
+.roundBtn{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    background-color: #0827CD;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roundBtn:hover{
+    cursor: pointer;
+}
+
+#whiteBtn{
+    color: #0827CD;
+    background-color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+h1{
+    font-size: 36px;
+}
+
+main p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+main button{
+    margin-top: 20vh;
+}
+
+.socials{
+    align-self: flex-end;
+    display: flex;
+    flex-flow: column;
+    position: sticky;
+    bottom: 25px;
+    margin: 1vw;
+    padding: 10px;
+}
+
+.socials button{
+    margin: 5px;
+}
